@@ -1,0 +1,24 @@
+button {
+    padding: 18px 32px;
+    margin-right: 5px;
+    font-size: 50px;
+}
+
+label {
+    width: 200px;
+    height: 50px;
+    border-style: dashed;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 50px;
+}
+
+#firstrow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
