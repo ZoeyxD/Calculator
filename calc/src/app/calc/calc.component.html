@@ -1,13 +1,33 @@
 
-<div id="firstrow">
-    <label>{{ writeme }}</label>
-    <button (click)="delete()">DEL</button>
+<div class="firstrow">
+    <label>{{ display }}</label>
+    <button id = "del" (click)="delete()">DEL</button>
+
 </div>
 
-<button (click)="saveme('1')">1</button>
-<button (click)="saveme('2')">2</button>
-<button (click)="saveme('3')">3</button>
-<button (click)="saveme('4')">4</button>
+<div class="secondrow">
+    <button (click)="saveme('1')">1</button>
+    <button (click)="saveme('2')">2</button>
+    <button (click)="saveme('3')">3</button>
+    <button (click)="saveop('+')">+</button>
+</div>
 
-<button (click)="saveme('+')">+</button>
-<button (click)="result()">=</button>
+<div class="thirdrow">
+    <button (click)="saveme('4')">4</button>
+    <button (click)="saveme('5')">5</button>
+    <button (click)="saveme('6')">6</button>
+    <button (click)="saveop('-')">-</button>
+</div>
+
+<div class="fourthrow">
+    <button (click)="saveme('7')">7</button>
+    <button (click)="saveme('8')">8</button>
+    <button (click)="saveme('9')">9</button>
+    <button (click)="saveop('*')">*</button>
+</div>
+
+<div class="fifthrow">
+    <button (click)="saveme('0')">0</button>
+    <button id = "equals" (click)="result()">=</button>
+    <button (click)="saveop('/')">/</button>
+</div>
