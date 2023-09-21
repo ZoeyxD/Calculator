@@ -1,29 +1,33 @@
 button {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     font-size: 50px;
-    margin-right: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
     margin-bottom:10px;
+    border-style: hidden;
 }
 
 #del{
-    width: 200px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #FF9999;
 }
 
 label {
-    width: 200px;
-    height: 50px;
-    border-style: dashed;
+    width: 255px;
+    height: 80px;
+    border-style: inset;
     display: flex;
     margin-bottom: 10px;
     justify-content: center;
     align-items: center;
     margin-right: 10px;
     font-size: 50px;
+    font-family: Arial;
 }
 
 .firstrow {
@@ -33,6 +37,20 @@ label {
 }
 
 #equals {
-    width: 205px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+    background-color: #99FF99;
+}
+
+.background{
+    width: 380px;
+    height: 480px;
+    border-style: outset;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+#plus, #substract, #multi, #divide {
+    background-color: #FFB266;
 }
